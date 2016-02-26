@@ -1,4 +1,5 @@
 //This is the line causing issue in the master branch
+//This is the second line causing issue in the master/ branch
 #include <stdio.h>
 
 int main()
@@ -23,7 +24,7 @@ int main()
             printf("%.1f / %.1f = %.1f",num1, num2, num1/num2);
             break;
         default:
-            /* If operator is other than +, -, * or /, error message is shown */
+            /* If operator is other than +, -, * or /, error message will be shown */
             printf("Error! operator is not correct");
             break;
     }
